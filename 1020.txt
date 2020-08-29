@@ -1,0 +1,8 @@
+day=int(input())
+years=int(day/365)
+day=day%365
+month=int(day/30)
+day=day%30
+print("%d ano(s)"%years)
+print("%d mes(es)"%month)
+print("%d dia(s)"%day)

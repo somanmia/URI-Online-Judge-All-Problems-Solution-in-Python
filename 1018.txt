@@ -1,0 +1,22 @@
+X=int(input())
+print(X)
+note_100=X/100
+X=X%100
+note_50=X/50
+X=X%50
+note_20=X/20
+X=X%20
+note_10=X/10
+X=X%10
+note_5=X/5
+X=X%5
+note_2=X/2
+X=X%2
+note_1=X
+print("%d nota(s) de R$ 100,00"%note_100)
+print("%d nota(s) de R$ 50,00"%note_50)
+print("%d nota(s) de R$ 20,00"%note_20)
+print("%d nota(s) de R$ 10,00"%note_10)
+print("%d nota(s) de R$ 5,00"%note_5)
+print("%d nota(s) de R$ 2,00"%note_2)
+print("%d nota(s) de R$ 1,00"%note_1)

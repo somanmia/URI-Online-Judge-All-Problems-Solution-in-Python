@@ -1,0 +1,8 @@
+second=int(input())
+hours=int(second/3600)
+second=(second%3600)
+munits=int(second/60)
+second=int(second%60)
+print(hours,end=':')
+print(munits,end=':')
+print(second)

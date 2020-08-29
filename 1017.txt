@@ -1,0 +1,4 @@
+trip_hour=int(input())
+duration=int(input())
+result=duration/12.0*trip_hour
+print("%.3f"%result)
